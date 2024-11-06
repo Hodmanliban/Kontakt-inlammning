@@ -9,15 +9,16 @@
 </head>
 
 <body>
+    <form id ="contact-form"> 
    <div class="container">
       <h1>Skapa en kontaktlista!</h1>
        <div class="create-contact">
         <input type="text" id="name" placeholder="Ange namn">
-        <input type="text" id="phone" placeholder="Ange telefonnummer">
-        <button id="addContact">Skapa ny kontakt</button>
-        <button id="deleteList">Radera lista</button>
+        <input type="tel" id="phone" placeholder="Ange telefonnummer">
+        <button id="addContact" type="button">Skapa ny kontakt</button>
+        <button id="deleteList" type="button">Radera lista</button>
         <span id="error-message" class="error-message"></span>
-       
+        
        </div>
             <div class="contact-list">
             <h2>Kontakt lista</h2>
@@ -26,6 +27,7 @@
                 </ul>
             </div>
   </div>
+</form>
 
     <script src="/JS/main.js"></script>
 </body>
